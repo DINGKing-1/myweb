@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米移动设备</title>
+    <link href="/myweb/css/style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .zt{
+      width: 1300px;
+      height: 1800px;
+      margin: 0 auto;
+      background: linear-gradient(to bottom,#7f6c9c, #502c61 );
+      color: #ffffff;
+  }
+        /* 小米手机展示区 */
+        .phone-showcase {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 1200px;
+            text-align: center;
+        }
+        .phone-showcase h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .phone-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .phone-item {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: left;
+            background-color: #f9f9f9;
+            transition: transform 0.3s ease;
+        }
+
+        .phone-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .phone-item img {
+            width: 100%;
+            display: block;
+        }
+
+        .phone-item .info {
+            padding: 15px;
+        }
+
+        .phone-item .info h3 {
+            font-size: 20px;
+            margin: 0;
+            color: #333;
+        }
+
+        .phone-item .info p {
+            font-size: 14px;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .phone-item .info .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #f37c20;
+        }
+        .video-box {
+      width: 380px;
+      height: 250px;
+      border: 2px solid #edddf3;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      background-color: #000;
+    }
+    .video-box video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .d{
+        width: 1300px;
+        height: 260px;
+        margin-top: 5px;
+    }
+    .sj1{
+        float: left;
+        width: 380px;
+        height: 250px;
+        margin-left: 60px;
+    }
+    .sj2{
+        float: right;
+        width: 380px;
+        height: 250px;
+        margin-right: 60px;
+    }
+    .zj{
+        float: left;
+        width: 380px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    </style>
+</head>
+<body>
+<div class="zt">
+    <div class="he">
+        
+        <div>
+            <ul class="dh">
+                <li><a href="main.html">首页</a></li>
+        <li><a href="sj.html">移动设备</a></li>
+        <li><a href="che.html">汽车</a></li>
+        <li><a href="home.html">家</a></li>
+        <li><a href="ph.html">精美样张</a></li>
+        <li><a href="zhuce.html">用户注册</a></li>
+            </ul>
+        </div>
+       
+        <div class="box">
+            <video autoplay muted loop playsinline>
+                <source src="/myweb/videos/2.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+<div class="d">
+    <div class="sj1">
+        <div class="video-box">
+            <video autoplay muted loop controls>
+              <source src="/myweb/videos/152.mp4" type="video/mp4">
+            </video>
+          </div>
+    </div>
+    <div class="zj">
+        <div class="video-box">
+            <video autoplay muted loop controls>
+              <source src="/myweb/videos/xa.mp4" type="video/mp4">
+            </video>
+          </div>
+    </div>
+    <div class="sj2">
+          <div class="video-box">
+            <video autoplay muted loop controls>
+              <source src="/myweb/videos/15.mp4" type="video/mp4">
+            </video>
+          </div>
+    </div>
+</div>
+
+    
+    <div class="phone-showcase">
+        <h2>小米手机系列</h2>
+        <div class="phone-grid">
+            
+            <div class="phone-item">
+                <img src="/myweb/images/xm15.jpg" alt="小米15">
+                <div class="info">
+                    <h3>小米15</h3>
+                    <p>旗舰性能，极致设计，带来非凡体验。</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+           
+            <div class="phone-item">
+                <img src="images/slip.jpg" alt="小米slip">
+                <div class="info">
+                    <h3>小米 MIX Flip</h3>
+                    <p>性能强悍的小折叠，徕卡影像，顶级配置。</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+           
+            <div class="phone-item">
+                <img src="/myweb/images/sb.jpg" alt="redmik80">
+                <div class="info">
+                    <h3>小米手表watch S4</h3>
+                    <p>百变表圈，旋转表冠，小米澎湃OS2</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+            <div class="phone-item">
+                <img src="/myweb/images/sh.jpg" alt="小米slip">
+                <div class="info">
+                    <h3>小米手环9Pro</h3>
+                    <p>超窄四等边大屏，金属机身，21天超长续航</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+            <div class="phone-item">
+                <img src="/myweb/images/80pro.jpg" alt="小米slip">
+                <div class="info">
+                    <h3>小米k80</h3>
+                    <p>全新骁龙8至尊版移动平台，狂暴引擎4.0，2k新国屏，小米青山护眼，光影猎人全焦段旗舰影像</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+            <div class="phone-item">
+                <img src="/myweb/images/pb.jpg" alt="小米slip">
+                <div class="info">
+                    <h3>小米Pad 7 Pro</h3>
+                    <p>11.2英寸3.2K高清高刷屏，第三代骁龙8S旗舰芯片，HyperOS2</p>
+                    <p class="price">¥----</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

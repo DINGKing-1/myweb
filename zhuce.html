@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <link href="myweb/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<style type="text/css">
+    .f{
+        margin-top: 20px;
+    }
+    .bt{
+        text-align: center;
+    }
+    table {
+	border-collapse: collapse;
+}
+td {
+	border: 1px solid #f0f0f0;
+	padding: 10px 15px;
+}
+</style>
+<body>
+<div class="zt">
+    <div class="he">
+    <div>
+        <ul class="dh">
+          <li><a href="main.html">首页</a></li>
+          <li><a href="sj.html">移动设备</a></li>
+          <li><a href="che.html">汽车</a></li>
+          <li><a href="home.html">家</a></li>
+          <li><a href="ph.html">精美样张</a></li>
+          <li><a href="zhuce.html">用户注册</a></li>
+      </ul>
+    </div>
+    <div class="box">
+        <video autoplay muted loop playsinline>
+          <source src="/myweb/videos/su7.mp4" type="video/mp4">
+        </video>
+    </div>
+    </div>
+    <div class="f">
+        <div class="bt"><h2>用户注册</h2></div>
+        <form id="form1" method="post" action="">
+            <table width="" border="0" cellpadding="0" cellspacing="0" class="ziti" style=" font-size:20px; line-height:30px;width:800px;margin:0 auto;">
+              <tr>
+                <td width="33%" align="right">注册用户名：</td>
+                <td width="58%" align="left"><input type="text" name="textfield" /></td>
+              </tr>
+              <tr>
+                <td align="right">登陆密码：</td>
+                <td align="left"><input type="password" name="textfield2" /></td>
+              </tr>
+              <tr>
+                <td align="right">请再次输入您的密码：</td>
+                <td align="left"><input type="text" name="textfield3" /></td>
+              </tr>
+              <tr>
+                <td align="right">性别：</td>
+                <td align="left"><label>
+                  <input name="radiobutton" type="radio" value="radiobutton" checked="checked" />
+                  </label>
+                  男
+                  <label>
+                    <input type="radio" name="radiobutton" value="radiobutton" />
+                  </label>
+                女 <br/></td>
+              </tr>
+              <tr>
+                <td align="right">爱好：</td>
+                <td align="left"><input type="checkbox" name="checkbox" value="checkbox" />
+                  娱乐
+                    <input type="checkbox" name="checkbox2" value="checkbox" />
+                  健身
+                  <input type="checkbox" name="checkbox3" value="checkbox" />
+                  游戏
+                  <input type="checkbox" name="checkbox4" value="checkbox" />
+                旅游</td>
+              </tr>
+              <tr>
+                <td align="right">请选择您是如何知道本站的：</td>
+                <td align="left"><label>
+                  <select name="select">
+                    <option>网站搜索</option>
+                    <option>朋友介绍</option>
+                  </select>
+                </label></td>
+              </tr>
+              <tr>
+                <td align="right">邮箱：</td>
+                <td align="left"><input type="text" name="textfield4" /></td>
+              </tr>
+              <tr>
+                <td align="right" valign="top">建议：</td>
+                <td align="left"><label>
+                  <textarea name="textarea" wrap="virtual"></textarea>
+                </label></td>
+              </tr>
+              <tr>
+                <td align="right">&nbsp;</td>
+                <td align="left"><label>
+                  <input type="submit" name="Submit" value="确认注册" />
+                  <input type="submit" name="Submit2" value="重新输入" />
+                </label></td>
+              </tr>
+            </table>
+          </form>
+    </div>
+</div>
+</body>
+</html>
